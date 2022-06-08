@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Dark mode</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <!-- Dark mode switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fa-solid fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>    
+    </div>
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <!-- Home section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Custom title here</h1>
+            <h2>Welcome to the website!</h2>
+        </div>
+    </section>
+    <section id="about">
+            <h1>Undraw illustration</h1>
+            <div class="about-container">
+                <div class="image-container">
+                    <h2>Web innovation</h2>
+                    <img src="images/coder2.svg" alt="Proud coder" id="image1">
+                </div>
+                <div class="image-container">
+                    <h2>Problem Solving</h2>
+                    <img src="images/idea2.svg" alt="Problem Solving" id="image2">
+                </div>
+                <div class="image-container">
+                    <h2>High Concept</h2>
+                    <img src="images/proud2.svg" alt="Proud coder" id="image3">
+                </div>
+    </section>
+    <section id="projects">
+
+            <h1>Buttons</h1>
+            <div class="buttons">
+                <button class="primary">Prmary</button>
+                <button class="secondary">Secondary</button>
+                <button class="primary" disabled>Disabled</button>
+                <button class="outline">Outline</button>
+                <button class="secondary-outline">Alt Outline</button>
+                <button class="outline" disabled>Disabled</button>
+            </div>
+            <div class="text-box" id="text-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nisi totam minima aperiam dolore veritatis! Facere vitae aspernatur sed doloremque suscipit ipsa perferendis minima asperiores voluptatum officiis, veniam, ut sapiente!</p>
+            </div>
+    </section>
+    <section id="contact">
+        <div class="social-icons">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-codepen"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
